@@ -1,0 +1,93 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+#cabecera {
+   background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(arrozPortada.jpeg);
+   background-size: cover; 
+   background-position: center;
+   height: 800px;
+   color: aliceblue;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   font-family: 'Roboto' , sans-serif;
+   font-size: 30px;
+}
+
+main > section {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: space-between;
+}
+.columnas {
+   flex-basis: 32%;
+   box-sizing: border-box;
+   padding: 15px;
+   border-radius: 20px;
+}
+
+#sobreNosotros {
+   background-image:  url(josecurrando.jpeg) ;
+   background-size: cover;
+   background-position:bottom;
+   height: 200px;
+   font-family: 'Roboto' , sans-serif;
+   font-size: 20px;
+   color: aliceblue;
+   text-align: center;
+}
+#arroces{
+   background-image:  url(arroz.jpeg) ;
+   background-size: cover;
+   background-position:center;
+   height: 200px;
+   font-family: 'Roboto' , sans-serif;
+   font-size: 20px;
+   color: aliceblue;
+   text-align: center;
+}
+#menu {
+   background-image:  url(menu.jpeg) ;
+   background-size: cover;
+   background-position:center;
+   height: 200px;
+   font-family: 'Roboto' , sans-serif;
+   font-size: 20px;
+   color: aliceblue;
+   text-align: center;
+}
+#reservas {
+   background-image:  url(colas.jpeg) ;
+   background-size: cover;
+   background-position:center;
+   height: 200px;
+   font-family: 'Roboto' , sans-serif;
+   font-size: 20px;
+   color: aliceblue;
+   text-align: center;
+}
+#horario {
+   background-image:  url(joseee.jpeg) ;
+   background-size: cover;
+   background-position:center 80%;
+   height: 200px;
+   font-family: 'Roboto' , sans-serif;
+   font-size: 20px;
+   color: aliceblue;
+   text-align: center;
+}
+#catering {
+   background-image:  url(catering.jpeg) ;
+   background-size: cover;
+   background-position:center;
+   height: 200px;
+   font-family: 'Roboto' , sans-serif;
+   font-size: 20px;
+   color: aliceblue;
+   text-align: center;
+}
