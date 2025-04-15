@@ -1,9 +1,13 @@
 *{
+  
    margin: 0;
    padding: 0;
 }
+h1 {
+   
+}
 #cabecera {
-   background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(arrozPortada.jpeg);
+   background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(imagenes/arrozPortada.jpeg);
    background-size: cover; 
    background-position: center;
    height: 800px;
@@ -25,69 +29,124 @@ main > section {
    justify-content: space-between;
 }
 .columnas {
-   flex-basis: 32%;
+   flex-basis: 30%;
    box-sizing: border-box;
    padding: 15px;
-   border-radius: 20px;
+   
+}
+@media (max-width: 555px) {
+   .columnas {
+   flex-basis: auto;
+   box-sizing: border-box;
+   padding: 15px;
+   }
 }
 
-#sobreNosotros {
-   background-image:  url(josecurrando.jpeg) ;
-   background-size: cover;
-   background-position:bottom;
-   height: 200px;
-   font-family: 'Roboto' , sans-serif;
-   font-size: 20px;
-   color: aliceblue;
-   text-align: center;
-}
-#arroces{
-   background-image:  url(arroz.jpeg) ;
-   background-size: cover;
-   background-position:center;
-   height: 200px;
-   font-family: 'Roboto' , sans-serif;
-   font-size: 20px;
-   color: aliceblue;
-   text-align: center;
-}
-#menu {
-   background-image:  url(menu.jpeg) ;
-   background-size: cover;
-   background-position:center;
-   height: 200px;
-   font-family: 'Roboto' , sans-serif;
-   font-size: 20px;
-   color: aliceblue;
-   text-align: center;
-}
-#reservas {
-   background-image:  url(colas.jpeg) ;
-   background-size: cover;
-   background-position:center;
-   height: 200px;
-   font-family: 'Roboto' , sans-serif;
-   font-size: 20px;
-   color: aliceblue;
-   text-align: center;
-}
-#horario {
-   background-image:  url(joseee.jpeg) ;
+#sobreNosotros > h3 {
+   
+   background-image:  url(imagenes/josecurrando.jpeg) ;
    background-size: cover;
    background-position:center 80%;
-   height: 200px;
+   height: 100px;
    font-family: 'Roboto' , sans-serif;
-   font-size: 20px;
-   color: aliceblue;
-   text-align: center;
+   font-size: 30px;
+   color:  white;
+   text-align:center;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+   
+   
 }
-#catering {
-   background-image:  url(catering.jpeg) ;
+#arroces > h3{
+   
+   background-image:  url(imagenes/arroz.jpeg) ;
    background-size: cover;
    background-position:center;
-   height: 200px;
+   height: 100px;
    font-family: 'Roboto' , sans-serif;
-   font-size: 20px;
-   color: aliceblue;
+   font-size: 30px;
+   color:  white;
+   text-align: center;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+#menu > h3 {
+   background-image:  url(imagenes/menu.jpeg) ;
+   background-size: cover;
+   background-position:center;
+   height: 100px;
+   font-family: 'Roboto' , sans-serif;
+   font-size: 30px;
+   color: white;
+   text-align: center;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+#reservas >h3{
+   background-image:  url(imagenes/colas.jpeg) ;
+   background-size: cover;
+   background-position:center;
+   height: 100px;
+   font-family: 'Roboto' , sans-serif;
+   font-size: 30px;
+   color: white;
+   text-align: center;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+#reservas > p > a {
+   color: inherit;
+   text-decoration: none;
+}
+#horario >h3{
+   background-image:  url(imagenes/joseee.jpeg) ;
+   background-size: cover;
+   background-position:center 80%;
+   height: 100px;
+   font-family: 'Roboto' , sans-serif;
+   font-size: 30px;
+   color: white;
+   text-align: center;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+#catering >h3 {
+   background-image:  url(imagenes/catering.jpeg) ;
+   background-size: cover;
+   background-position:center;
+   height: 100px;
+   font-family: 'Roboto' , sans-serif;
+   font-size: 30px;
+   color: white;
+   text-align: center;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+main {
+   padding: 15px;
+   background: #fffff5;
+   background: linear-gradient(177deg, rgba(255, 255, 245, 1) 0%, rgba(255, 224, 156, 1) 100%);
+}
+
+main > section > article > p {
+   padding: 15px;
+   color: black;
+   font-size: 18px;
+   font-weight: bold ;
    text-align: center;
 }
+
