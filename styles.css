@@ -42,6 +42,7 @@ main > section {
    box-sizing: border-box;
    padding: 15px;
    }
+   
 }
 
 
@@ -213,3 +214,12 @@ to {
 }
 }
 
+
+.galeria {
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   font-size: 40px;
+   
+}
