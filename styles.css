@@ -1,11 +1,15 @@
+:root {
+   --font: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
 *{
-  
+  font-family: var(--font);
    margin: 0;
    padding: 0;
+   
 }
 
 #cabecera {
-   background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(imagenes/arrozPortada.jpeg);
+   background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/imagenes/arrozPortada.jpeg);
    background-size: cover; 
    background-position: center;
    height: 600px;
@@ -16,7 +20,7 @@
    justify-content: center;
    align-items: center;
    position: relative;
-   font-family: 'Roboto' , sans-serif;
+   
    font-size: 30px;
 }
 
@@ -44,11 +48,11 @@ main > section {
 
 #sobreNosotros > h3 {
    
-   background-image:  url(imagenes/josecurrando.jpeg) ;
+   background-image:  url(assets/imagenes/josecurrando.jpeg) ;
    background-size: cover;
    background-position:center 80%;
    height: 100px;
-   font-family: 'Roboto' , sans-serif;
+   
    font-size: 30px;
    color:  white;
    text-align:center;
@@ -56,17 +60,16 @@ main > section {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   
-   
-   
+   animation: moverFondo 4s ease forwards;
 }
+
 #arroces > h3{
    
-   background-image:  url(imagenes/arroz.jpeg) ;
+   background-image:  url(assets/imagenes/arroz.jpeg) ;
    background-size: cover;
    background-position:center;
    height: 100px;
-   font-family: 'Roboto' , sans-serif;
+   animation: moverFondo 4s ease forwards;
    font-size: 30px;
    color:  white;
    text-align: center;
@@ -76,11 +79,11 @@ main > section {
    justify-content: center;
 }
 #menu > h3 {
-   background-image:  url(imagenes/menu.jpeg) ;
+   background-image:  url(assets/imagenes/menu.jpeg) ;
    background-size: cover;
    background-position:center;
    height: 100px;
-   font-family: 'Roboto' , sans-serif;
+   animation: moverFondo 4s ease forwards;
    font-size: 30px;
    color: white;
    text-align: center;
@@ -90,11 +93,11 @@ main > section {
    justify-content: center;
 }
 #reservas >h3{
-   background-image:  url(imagenes/colas.jpeg) ;
+   background-image:  url(assets/imagenes/colas.jpeg) ;
    background-size: cover;
    background-position:center;
    height: 100px;
-   font-family: 'Roboto' , sans-serif;
+   animation: moverFondo 4s ease forwards;
    font-size: 30px;
    color: white;
    text-align: center;
@@ -108,11 +111,11 @@ main > section {
    text-decoration: none;
 }
 #horario >h3{
-   background-image:  url(imagenes/joseee.jpeg) ;
+   background-image:  url(assets/imagenes/joseee.jpeg) ;
    background-size: cover;
    background-position:center 80%;
    height: 100px;
-   font-family: 'Roboto' , sans-serif;
+   animation: moverFondo 4s ease forwards;
    font-size: 30px;
    color: white;
    text-align: center;
@@ -122,11 +125,11 @@ main > section {
    justify-content: center;
 }
 #catering >h3 {
-   background-image:  url(imagenes/catering.jpeg) ;
+   background-image:  url(assets/imagenes/catering.jpeg) ;
    background-size: cover;
    background-position:center;
    height: 100px;
-   font-family: 'Roboto' , sans-serif;
+   animation: moverFondo 4s ease forwards;
    font-size: 30px;
    color: white;
    text-align: center;
@@ -138,9 +141,7 @@ main > section {
 
 main {
    padding: 15px;
-   background: #ADA996;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background-image: url(assets/imagenes/posiblebody.png);
 
 }
 
@@ -152,32 +153,63 @@ main > section > article > p {
    text-align: center;
 }
 #localizacion{
-   padding-bottom: 10%;
+   padding-bottom: 5%;
 }
 #localizacion > iframe {
    border-radius: 20px;
    box-shadow: 0 4px 12px rgba(0, 0, 0, 1.2);
-   float: right ;
+   float: right;
   
 }
 .footer {
-   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-   font-family: 'roboto', sans-serif;
+  margin-top: 10px;
+
+  
+   background: #ad9253;
+   background: linear-gradient(177deg,rgba(173, 146, 83, 1) 0%, rgba(255, 224, 156, 1) 100%);
    font-size: 20px;
    flex-basis: 50%;
-   padding-top: 5%;
-   padding-left: 10%;
-   padding-right: 10%;
-   padding-bottom: 5%;
-   
+   padding-top: 2%;
+   padding-left: 5%;
+   padding-right: 5%;
+   padding-bottom: 2%;
+   color: white;
    }
  .footer > article> ul > li >a {
    font-weight: bold;
-   color: inherit;
+   color: white;
    text-decoration: none;
  }
 footer > section > div {
-   color: black;
-   padding-top: 10%;
-   font-weight: bold;
+   color: white;
+   padding-top: 1%;
+   
 }
+main > section > article > p {
+   background-color: rgba(255, 255, 255, 0.9); 
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
+}
+main > section > article > p:hover, main > section > article > p:active{
+   background-color: rgb(179, 163, 95);
+}
+h1, h2{
+   transition: text-shadow 1.0s ease;
+}
+   
+
+h1:hover, h2:hover{
+   text-shadow: 4px 4px 5px rgba(0, 0, 0, 5.3);
+}
+@keyframes moverFondo {
+   from {
+   background-position: top;
+   }
+
+to {
+   background-position: center;
+}
+}
+
