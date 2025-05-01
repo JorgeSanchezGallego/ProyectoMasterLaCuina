@@ -192,6 +192,9 @@ main > section > article > p {
   margin-top: 10px;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
+  border-style: groove;
+  border-color: #ad9253;
+  border-width: 5px;
 }
 main > section > article > p:hover, main > section > article > p:active{
    background-color: rgb(179, 163, 95);
@@ -222,4 +225,8 @@ to {
    flex-direction: column;
    font-size: 40px;
    
+}
+
+input:focus{
+   background-color: rgb(211, 253, 239);
 }
