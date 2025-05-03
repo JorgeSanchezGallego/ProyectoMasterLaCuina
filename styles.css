@@ -53,7 +53,8 @@ main > section {
    background-size: cover;
    background-position:center 80%;
    height: 100px;
-   
+   border-style: groove;
+   border-color: #ad9253;
    font-size: 30px;
    color:  white;
    text-align:center;
@@ -62,6 +63,7 @@ main > section {
    flex-direction: column;
    justify-content: center;
    animation: moverFondo 4s ease forwards;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 
 #arroces > h3{
@@ -78,6 +80,9 @@ main > section {
    display: flex;
    flex-direction: column;
    justify-content: center;
+   border-style: groove;
+   border-color: #ad9253;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 #menu > h3 {
    background-image:  url(assets/imagenes/menu.jpeg) ;
@@ -92,6 +97,9 @@ main > section {
    display: flex;
    flex-direction: column;
    justify-content: center;
+   border-style: groove;
+   border-color: #ad9253;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 #reservas >h3{
    background-image:  url(assets/imagenes/colas.jpeg) ;
@@ -106,6 +114,9 @@ main > section {
    display: flex;
    flex-direction: column;
    justify-content: center;
+   border-style: groove;
+   border-color: #ad9253;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 #reservas > p > a {
    color: inherit;
@@ -124,6 +135,9 @@ main > section {
    display: flex;
    flex-direction: column;
    justify-content: center;
+   border-style: groove;
+   border-color: #ad9253;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 #catering >h3 {
    background-image:  url(assets/imagenes/catering.jpeg) ;
@@ -138,6 +152,9 @@ main > section {
    display: flex;
    flex-direction: column;
    justify-content: center;
+   border-style: groove;
+   border-color: #ad9253;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 
 main {
@@ -153,39 +170,44 @@ main > section > article > p {
    font-weight: bold ;
    text-align: center;
 }
-#localizacion{
-   padding-bottom: 5%;
-}
-#localizacion > iframe {
-   border-radius: 20px;
-   box-shadow: 0 4px 12px rgba(0, 0, 0, 1.2);
-   float: right;
-  
-}
-.footer {
-  margin-top: 10px;
-
-  
+footer {
+   display: flex;
+   padding: 3%;
    background: #ad9253;
    background: linear-gradient(177deg,rgba(173, 146, 83, 1) 0%, rgba(255, 224, 156, 1) 100%);
    font-size: 20px;
    flex-basis: 50%;
-   padding-top: 2%;
-   padding-left: 5%;
-   padding-right: 5%;
-   padding-bottom: 2%;
+  justify-content: space-between;
+  align-items: flex-start;
    color: white;
-   }
+   flex-wrap: wrap;
+   color: white;
+}
+
+
+   
+  
+   
+   
+
+#localizacion > iframe {
+   border-radius: 20px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 1.2);
+   
+   
+  
+}
+
  .footer > article> ul > li >a {
    font-weight: bold;
    color: white;
    text-decoration: none;
  }
-footer > section > div {
-   color: white;
-   padding-top: 1%;
+
    
-}
+   
+   
+
 main > section > article > p {
    background-color: rgba(255, 255, 255, 0.9); 
   padding: 20px;
@@ -229,4 +251,29 @@ to {
 
 input:focus{
    background-color: rgb(211, 253, 239);
+}
+
+footer > section > article > ul > li {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   
+}
+
+.author {
+   margin-top: 10%;
+   margin-bottom: 10%;
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+}
+
+.form {
+   margin-top: 10%;
+}
+#localizacion {
+  display: flex;
+  
+  justify-content: flex-end;
+  
 }
