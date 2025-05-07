@@ -9,7 +9,7 @@
 }
 
 #cabecera {
-   background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/imagenes/arrozPortada.jpeg);
+   background-image: url(assets/imagenes/IMG_2024.JPG);
    background-size: cover; 
    background-position: center;
    height: 600px;
@@ -21,7 +21,10 @@
    align-items: center;
    position: relative;
    
+   border: groove;
+   border-color: #ad9253;
    font-size: 30px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 
 main > section {
@@ -42,17 +45,16 @@ main > section {
    box-sizing: border-box;
    padding: 15px;
    }
-   
-}
+   }
 
 
 
 #sobreNosotros > h3 {
    
-   background-image:  url(assets/imagenes/josecurrando.jpeg) ;
+   background-image:  url(assets/imagenes/IMG_1834.JPG) ;
    background-size: cover;
    background-position:center 80%;
-   height: 100px;
+   height: 150px;
    border-style: groove;
    border-color: #ad9253;
    font-size: 30px;
@@ -68,10 +70,10 @@ main > section {
 
 #arroces > h3{
    
-   background-image:  url(assets/imagenes/arroz.jpeg) ;
+   background-image:  url(assets/imagenes/IMG_2018.JPG) ;
    background-size: cover;
    background-position:center;
-   height: 100px;
+   height: 150px;
    animation: moverFondo 4s ease forwards;
    font-size: 30px;
    color:  white;
@@ -85,10 +87,10 @@ main > section {
    box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 #menu > h3 {
-   background-image:  url(assets/imagenes/menu.jpeg) ;
+   background-image:  url(assets/imagenes/IMG_2662.JPG) ;
    background-size: cover;
    background-position:center;
-   height: 100px;
+   height: 150px;
    animation: moverFondo 4s ease forwards;
    font-size: 30px;
    color: white;
@@ -102,10 +104,10 @@ main > section {
    box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 #reservas >h3{
-   background-image:  url(assets/imagenes/colas.jpeg) ;
+   background-image:  url(assets/imagenes/IMG_1845.JPG) ;
    background-size: cover;
    background-position:center;
-   height: 100px;
+   height: 150px;
    animation: moverFondo 4s ease forwards;
    font-size: 30px;
    color: white;
@@ -123,10 +125,10 @@ main > section {
    text-decoration: none;
 }
 #horario >h3{
-   background-image:  url(assets/imagenes/joseee.jpeg) ;
+   background-image:  url(assets/imagenes/IMG_1825.JPG) ;
    background-size: cover;
    background-position:center 80%;
-   height: 100px;
+   height: 150px;
    animation: moverFondo 4s ease forwards;
    font-size: 30px;
    color: white;
@@ -140,10 +142,10 @@ main > section {
    box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 #catering >h3 {
-   background-image:  url(assets/imagenes/catering.jpeg) ;
+   background-image:  url(assets/imagenes/IMG_2369.JPG) ;
    background-size: cover;
    background-position:center;
-   height: 100px;
+   height: 150px;
    animation: moverFondo 4s ease forwards;
    font-size: 30px;
    color: white;
@@ -276,4 +278,56 @@ footer > section > article > ul > li {
   
   justify-content: flex-end;
   
+}
+
+main > div > img {
+   width: 500px;
+   height: 500px;
+   border: groove;
+   border-radius: 20px;
+   border-color: #ad9253;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
+}
+
+.item1 {
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   justify-content: center;
+   gap: 5%;
+   flex-wrap: wrap;
+   padding-bottom: 100px;
+   padding-top: 100px;
+}
+.item1 > p {
+   display: flex;
+   flex-direction: row;
+   font-weight: bold;
+   font-size: 30px;
+   
+   align-items: center;
+}
+.item2 {
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   justify-content: center;
+   gap: 5%;
+   flex-wrap: wrap;
+}
+.item2 > p {
+   display: flex;
+   flex-direction: row;
+   font-weight: bold;
+   font-size: 30px;
+   
+   align-items: center;
+}
+@media (max-width: 560px) {
+   main > div > img {
+      width: 90%;
+      height: 300px;
+      
+   }
+   
 }
