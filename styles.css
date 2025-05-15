@@ -35,7 +35,7 @@ header nav {
 header .tituloheader{
    display: flex;
    justify-content: center;
-   
+   font-weight: bolder;
    width: 70%;
    font-size: 50px;
    padding-left: 8%;
@@ -80,7 +80,7 @@ header nav img {
    
    border: groove;
    border-color: #ad9253;
-   font-size: 30px;
+   font-size: 35px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 
