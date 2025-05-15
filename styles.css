@@ -1,11 +1,68 @@
 :root {
    --font: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+   --primary-color: #ad9253;
 }
 *{
   font-family: var(--font);
    margin: 0;
    padding: 0;
    
+}
+
+header {
+   height: auto;
+   min-height: 120px;
+   display: flex;
+   position: fixed;
+   width: 100%;
+   background-color: #ad9253da ;
+   z-index: 9999;
+   animation: fadeIn 3s;
+   flex-wrap: wrap;
+   box-sizing: border-box;
+}
+
+header nav {
+   display: flex;
+   align-items: center;
+   
+   
+   flex-wrap: wrap;
+   width: 100%;
+  
+}
+
+header .tituloheader{
+   display: flex;
+   justify-content: center;
+   
+   width: 70%;
+   font-size: 50px;
+   padding-left: 8%;
+   
+}
+
+header .icono{
+   padding-left: 2%;
+   display: flex;
+   align-items: center;
+   height: 100%;
+   
+}
+header nav img {
+   display: flex;
+   
+   height: 80px;
+   width: auto;
+}
+@keyframes fadeIn {
+  from {
+    background-color: transparent;
+  }
+
+  to {
+    background-color: #ad9253da ;
+  }
 }
 
 #cabecera {
@@ -39,25 +96,32 @@ main > section {
    padding: 15px;
    
 }
-@media (max-width: 560px) {
+@media (max-width: 590px) {
    .columnas {
    flex-basis: auto;
    box-sizing: border-box;
    padding: 15px;
+   }
+   header .tituloheader {
+      display: none;
+   }
+   header .icono {
+      display: flex;
+      justify-content: center;
+      width: 100%;
    }
    }
 
 
 
 #sobreNosotros > h3 {
-   
    background-image:  url(assets/imagenes/IMG_1834.JPG) ;
    background-size: cover;
    background-position:center 80%;
    height: 150px;
    border-style: groove;
    border-color: #ad9253;
-   font-size: 30px;
+   font-size: 60px;
    color:  white;
    text-align:center;
    border-radius: 20px;
@@ -75,7 +139,7 @@ main > section {
    background-position:center;
    height: 150px;
    animation: moverFondo 4s ease forwards;
-   font-size: 30px;
+   font-size: 60px;
    color:  white;
    text-align: center;
    border-radius: 20px;
@@ -92,7 +156,7 @@ main > section {
    background-position:center;
    height: 150px;
    animation: moverFondo 4s ease forwards;
-   font-size: 30px;
+   font-size: 60px;
    color: white;
    text-align: center;
    border-radius: 20px;
@@ -109,7 +173,7 @@ main > section {
    background-position:center;
    height: 150px;
    animation: moverFondo 4s ease forwards;
-   font-size: 30px;
+   font-size: 60px;
    color: white;
    text-align: center;
    border-radius: 20px;
@@ -130,7 +194,7 @@ main > section {
    background-position:center 80%;
    height: 150px;
    animation: moverFondo 4s ease forwards;
-   font-size: 30px;
+   font-size: 60px;
    color: white;
    text-align: center;
    border-radius: 20px;
@@ -147,7 +211,7 @@ main > section {
    background-position:center;
    height: 150px;
    animation: moverFondo 4s ease forwards;
-   font-size: 30px;
+   font-size: 60px;
    color: white;
    text-align: center;
    border-radius: 20px;
@@ -160,9 +224,10 @@ main > section {
 }
 
 main {
-   padding: 15px;
+   
+   padding-top: 50px;
    background-image: url(assets/imagenes/posiblebody.png);
-
+   padding-bottom: 50px;
 }
 
 main > section > article > p {
@@ -173,6 +238,7 @@ main > section > article > p {
    text-align: center;
 }
 footer {
+   
    display: flex;
    padding: 3%;
    background: #ad9253;
