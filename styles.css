@@ -1,6 +1,6 @@
 :root {
    --font: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
-   --primary-color: #ad9253;
+   --primary-color: #ad9253be;
 }
 *{
   font-family: var(--font);
@@ -15,7 +15,7 @@ header {
    display: flex;
    position: fixed;
    width: 100%;
-   background-color: #ad9253da ;
+   background-color: var(--primary-color) ;
    z-index: 9999;
    animation: fadeIn 3s;
    flex-wrap: wrap;
@@ -61,7 +61,7 @@ header nav img {
   }
 
   to {
-    background-color: #ad9253da ;
+    background-color: var(--primary-color) ;
   }
 }
 
@@ -79,7 +79,7 @@ header nav img {
    position: relative;
    
    border: groove;
-   border-color: #ad9253;
+   border-color: var(--primary-color);
    font-size: 35px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
@@ -120,7 +120,7 @@ main > section {
    background-position:center 80%;
    height: 150px;
    border-style: groove;
-   border-color: #ad9253;
+   border-color: var(--primary-color);
    font-size: 60px;
    color:  white;
    text-align:center;
@@ -147,7 +147,7 @@ main > section {
    flex-direction: column;
    justify-content: center;
    border-style: groove;
-   border-color: #ad9253;
+   border-color: var(--primary-color);
    box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 #menu > h3 {
@@ -164,7 +164,7 @@ main > section {
    flex-direction: column;
    justify-content: center;
    border-style: groove;
-   border-color: #ad9253;
+   border-color: var(--primary-color);
    box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 #reservas >h3{
@@ -181,7 +181,7 @@ main > section {
    flex-direction: column;
    justify-content: center;
    border-style: groove;
-   border-color: #ad9253;
+   border-color: var(--primary-color);
    box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 #reservas > p > a {
@@ -202,7 +202,7 @@ main > section {
    flex-direction: column;
    justify-content: center;
    border-style: groove;
-   border-color: #ad9253;
+   border-color: var(--primary-color);
    box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 #catering >h3 {
@@ -219,7 +219,7 @@ main > section {
    flex-direction: column;
    justify-content: center;
    border-style: groove;
-   border-color: #ad9253;
+   border-color: var(--primary-color);
    box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 
@@ -241,7 +241,7 @@ footer {
    
    display: flex;
    padding: 3%;
-   background: #ad9253;
+   background: var(--primary-color);
    background: linear-gradient(177deg,rgba(173, 146, 83, 1) 0%, rgba(255, 224, 156, 1) 100%);
    font-size: 20px;
    flex-basis: 50%;
@@ -283,7 +283,7 @@ main > section > article > p {
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
   border-style: groove;
-  border-color: #ad9253;
+  border-color: var(--primary-color);
   border-width: 5px;
 }
 main > section > article > p:hover, main > section > article > p:active{
@@ -318,7 +318,7 @@ to {
 }
 
 input:focus{
-   background-color: rgb(211, 253, 239);
+   background-color: rgb(164, 218, 200);
 }
 
 footer > section > article > ul > li {
@@ -351,7 +351,7 @@ main > div > img {
    height: 500px;
    border: groove;
    border-radius: 20px;
-   border-color: #ad9253;
+   border-color: var(--primary-color);
    box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
 
@@ -397,3 +397,23 @@ main > div > img {
    }
    
 }
+
+
+.galeria {
+  padding: 20px;
+   display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 300px;
+  justify-content: center;
+}
+
+.galeria > img {
+  
+   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+
