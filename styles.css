@@ -147,7 +147,7 @@ main > section {
    
 }
 
-#arroces > h2{
+#arroces > h3{
    
    background-image:  url(assets/imagenes/IMG_2018\(2\).webp) ;
    text-shadow:
@@ -167,7 +167,7 @@ main > section {
    border-color: var(--primary-color);
    box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
 }
-#menu > h2 {
+#menu > h3 {
    background-image:  url(assets/imagenes/IMG_2662\(1\).webp) ;
    text-shadow:
    2px 2px 2px rgba(0, 0, 0, 1),
@@ -187,7 +187,7 @@ main > section {
    box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
    
 }
-#reservas >h2{
+#reservas >h3{
    background-image:  url(assets/imagenes/IMG_1845\(3\).webp) ;
    text-shadow:
    2px 2px 2px rgba(0, 0, 0, 1),
@@ -210,7 +210,7 @@ main > section {
    color: inherit;
    text-decoration: none;
 }
-#horario >h2{
+#horario >h3{
    background-image:  url(assets/imagenes/IMG_1820\(1\).webp) ;
    text-shadow:
    2px 2px 2px rgba(0, 0, 0, 1),
@@ -230,7 +230,7 @@ main > section {
    box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
    object-fit: cover ;
 }
-#catering >h2 {
+#catering >h3 {
    background-image:  url(assets/imagenes/IMG_2369\(1\).webp) ;
    text-shadow:
    2px 2px 2px rgba(0, 0, 0, 1),
