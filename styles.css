@@ -122,6 +122,7 @@ main > section {
       font-size: 20px;
    }
    
+   
    }
 
 
@@ -410,7 +411,7 @@ main > div > img {
 
 
 #consentBox {
-   background:#ad9253 ;
+  background:#ad9253 ;
    padding: 20px;
    border-radius: 15px;
    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -432,9 +433,10 @@ main > div > img {
 #consentContent p {
    color: black;
    margin: 10px 0 20px 0;
-   width: 50%;
-   padding-left: 25%;
-   padding-right: 25%;
+   width: 90%;
+   padding-left: 5%;
+   padding-right: 5%;
+   
 }
 
 #consentContent .buttons {
@@ -471,7 +473,7 @@ main > div > img {
 }
 
 #consentBox img {
-   max-width: 90px;
+   max-width: 50px;
 }
 
 #consentHeader {
