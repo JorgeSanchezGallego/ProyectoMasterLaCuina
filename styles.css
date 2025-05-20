@@ -682,3 +682,23 @@ a {
    font-weight: bold;
    flex-wrap: wrap;
 }
+
+h2:hover, h3:hover {
+  
+  transform: scale(1.05);
+}
+
+h1:hover {
+   
+  color: black;
+ text-shadow: 
+    0 0 5px white,
+    0 0 10px white,
+    0 0 15px white;
+  transform: scale(1.05);
+transition: 
+    color 0.3s ease,
+    text-shadow 3.3s ease,
+    transform 3.3s ease;
+  transform-origin: center;
+}
