@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://lacuinadesanblas.vercel.app/sitemap.xml
