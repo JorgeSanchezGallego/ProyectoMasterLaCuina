@@ -343,14 +343,7 @@ to {
 }
 
 
-.galeria {
-   align-items: center;
-   justify-content: center;
-   display: flex;
-   flex-direction: column;
-   font-size: 40px;
-   
-}
+
 
 input:focus{
    background-color: rgb(164, 218, 200);
@@ -408,9 +401,24 @@ main > div > img {
    padding: 20px;
    display: grid;
    gap: 20px;
-   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+   /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
+   grid-template-columns: 300px 300px ;
+
    grid-auto-rows: 300px;
    justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .galeria {
+    
+    grid-template-columns: 1fr 1fr; 
+  }
+}
+@media (max-width: 600px) {
+  .galeria {
+    
+    grid-template-columns: 1fr; 
+  }
 }
 
 .galeria > img {
@@ -420,6 +428,8 @@ main > div > img {
    object-fit: cover;
   
 }
+
+
 
 
 #consentBox {
